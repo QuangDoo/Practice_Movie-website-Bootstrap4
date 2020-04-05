@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container header__detail">
+        <p class="text-right text-white mb-0">
+          <i class="fa fa-phone" aria-hidden="true"></i
+          ><span class="mx-2 border-right pr-2 font-weight-bold"
+            >016 655 778</span
+          >
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </p>
+      </div>
+      <nav class="header__navbar navbar navbar-expand-sm py-0 container">
+        <a class="navbar-brand" href="#"
+          ><img src="./img/logo.svg" class="img-fluid" alt=""
+        /></a>
+        <button
+          class="navbar-toggler d-lg-none navbar-button"
+          type="button"
+          data-toggle="collapse"
+          data-target="#myNavbar"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item line active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item line">
+              <a class="nav-link" href="#">WHAT'S ON</a>
+            </li>
+            <li class="nav-item line">
+              <a class="nav-link" href="#">SHORTCODES</a>
+            </li>
+            <li class="nav-item line">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item line">
+              <a class="nav-link" href="#">SIGN IN</a>
+            </li>
+            <li class="nav-item line">
+              <a class="nav-link" href="#">SIGN UP</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- carousel -->
+    <section class="carousel">
+      <div
+        id="carousel"
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators justify-content-start">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active item-1">
+            
+            <div class="carousel-item__overlay"></div>
+            <div class="carousel-item__caption container text-white">
+              <span class="title">Action, Adventure, Fantasy</span>
+              <h1 class="display-sm-4">End of the world: Part I</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                dignissimos laborum distinctio itaque, explicabo suscipit
+                incidunt voluptatum repellendus dolor dolorem?
+              </p>
+              <div class="carousel-item__trailer mt-4">
+                <span
+                  class="mr-2 text-white d-inline-block rounded-circle text-center"
+                  >PG</span
+                >
+                <button class="btn-orange">
+                  <i class="fa fa-play mr-2" aria-hidden="true"></i>Plat trailer
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item item-2">
+            
+            <div class="carousel-item__overlay"></div>
+            <div class="carousel-item__caption container text-white">
+              <span class="title">Action, Adventure, Fantasy</span>
+              <h1 class="display-sm-4">End of the world: Part II</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                dignissimos laborum distinctio itaque, explicabo suscipit
+                incidunt voluptatum repellendus dolor dolorem?
+              </p>
+              <div class="carousel-item__trailer mt-4">
+                <span
+                  class="mr-2 text-white d-inline-block rounded-circle text-center"
+                  >PG</span
+                >
+                <button class="btn-orange">
+                  <i class="fa fa-play mr-2" aria-hidden="true"></i>Plat trailer
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item item-3">
+            
+            <div class="carousel-item__overlay"></div>
+            <div class="carousel-item__caption container text-white">
+              <span class="title">Action, Adventure, Fantasy</span>
+              <h1 class="display-sm-4">End of the world: Part III</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                dignissimos laborum distinctio itaque, explicabo suscipit
+                incidunt voluptatum repellendus dolor dolorem?
+              </p>
+              <div class="carousel-item__trailer mt-4">
+                <span
+                  class="mr-2 text-white d-inline-block rounded-circle text-center"
+                  >PG</span
+                >
+                <button class="btn-orange">
+                  <i class="fa fa-play mr-2" aria-hidden="true"></i>Plat trailer
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- showing movie -->
+    <section class="movie">
+      <div class="container">
+        <h1 class="movie__title line section-title">SHOWING MOVIE</h1>
+        <div class="row text-center">
+          <div class="col col-md-3">
+            <div class="movie__item text-white">
+              <img src="./img/movie-1.jpg" class="img-fluid" alt="" />
+              <div class="movie__overlay"></div>
+              <div class="movie__decription">
+                <i class="fa fa-play d-block" aria-hidden="true"></i>
+                <a class="d-block">Read more</a>
+                <span>Released: 7, Mar, 2020</span>
+              </div>
+            </div>
+            <p class="movie__name">Hush</p>
+            <i class="fa fa-star movie__star" aria-hidden="true"></i>
+            <i class="fa fa-star movie__star" aria-hidden="true"></i>
+            <i class="fa fa-star movie__star" aria-hidden="true"></i>
+            <i class="fa fa-star movie__star" aria-hidden="true"></i>
+          </div>
+          <div class="col col-md-3">
+            <div class="movie__item text-white">
+              <img src="./img/movie-2.jpg" class="img-fluid" alt="" />
+              <div class="movie__overlay"></div>
+              <div class="movie__decription">
+                <i class="fa fa-play d-block" aria-hidden="true"></i>
+                <a class="d-block">Read more</a>
+                <span>Released: 7, Mar, 2020</span>
+              </div>
+            </div>
+            <p class="movie__name">Men of steel</p>
+            <i class="fa fa-star movie__star" aria-hidden="true"></i>
+            <i class="fa fa-star movie__star" aria-hidden="true"></i>
+            <i class="fa fa-star movie__star" aria-hidden="true"></i>
+            <i class="fa fa-star movie__star" aria-hidden="true"></i>
+          </div>
+          <div class="col col-md-3">
+            <div class="movie__item text-white">
+              <img src="./img/movie-3.jpg" class="img-fluid" alt="" />
+              <div class="movie__overlay"></div>
+              <div class="movie__decription">
+                <i class="fa fa-play d-block" aria-hidden="true"></i>
+                <a class="d-block">Read more</a>
+                <span>Released: 7, Mar, 2020</span>
+              </div>
+            </div>
+            <p class="movie__name">8 miles</p>
+            <i class="fa fa-star movie__star" aria-hidden="true"></i>
+            <i class="fa fa-star movie__star" aria-hidden="true"></i>
+            <i class="fa fa-star movie__star" aria-hidden="true"></i>
+            <i class="fa fa-star movie__star" aria-hidden="true"></i>
+          </div>
+          <div class="col col-md-3">
+            <div class="movie__item text-white">
+              <img src="./img/movie-4.jpg" class="img-fluid" alt="" />
+              <div class="movie__overlay"></div>
+              <div class="movie__decription">
+                <i class="fa fa-play d-block" aria-hidden="true"></i>
+                <a class="d-block">Read more</a>
+                <span>Released: 7, Mar, 2020</span>
+              </div>
+            </div>
+            <p class="movie__name">Alone</p>
+            <i class="fa fa-star movie__star" aria-hidden="true"></i>
+            <i class="fa fa-star movie__star" aria-hidden="true"></i>
+            <i class="fa fa-star movie__star" aria-hidden="true"></i>
+            <i class="fa fa-star movie__star" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--show time -->
+    <section class="show-time">
+      <div class="container">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" id="myTabs">
+          <li class="nav-item">
+            <a class="nav-link line active" data-toggle="pill" href="#mon"
+              >Mon</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link line" data-toggle="pill" href="#tue">Tue</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link line" data-toggle="pill" href="#wed">Wed</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link line" data-toggle="pill" href="#thur">Thur</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link line" data-toggle="pill" href="#fri">Fri</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link line" data-toggle="pill" href="#sat">Sat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link line" data-toggle="pill" href="#sun">Sun</a>
+          </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content mt-4">
+          <div class="tab-pane show active container" id="mon">
+            <div class="row">
+              <div class="col-2">
+                <img src="./img/movie-5.jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="col-10">
+                <div class="show-time__detail">
+                  <span>Ation, Adventure, Fantasy</span>
+                  <h1 class="display-4">It's Over</h1>
+                  <p>
+                    Hard enough, I don't need to hear your voice on my messages
+                    Let's just call it quits it's probably better so if I'm not
+                    returning your calls it's cause
+                  </p>
+                  <a href="#" class="d-block mb-4">
+                    FULL
+                    <i class="fa fa-angle-right ml-1" aria-hidden="true"></i>
+                  </a>
+                  <div class="show-time_lists d-flex justify-content-between">
+                    <div>
+                      <i class="fa fa-clock-o mr-2" aria-hidden="true"></i>
+                      <span class="mr-2">VIEWING TIMES</span>
+                      <button class="btn">14:25</button>
+                      <button class="btn">16:45</button>
+                      <button class="btn">17:25</button>
+                      <button class="btn">19:45</button>
+                    </div>
+                    <p class="show-times__length">
+                      105 mins
+                      <span
+                        class="d-inline-block bg-dark text-white font-weight-blod ml-2"
+                        >15</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">
+                <img src="./img/movie-6.jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="col-10">
+                <div class="show-time__detail">
+                  <span>Ation, Adventure, Fantasy</span>
+                  <h1 class="display-4">Joker</h1>
+                  <p>
+                    The film, based on DC Comics characters, stars Joaquin
+                    Phoenix as the Joker and provides a possible origin story
+                    for the character.
+                  </p>
+                  <a href="#" class="d-block mb-4">
+                    FULL
+                    <i class="fa fa-angle-right ml-1" aria-hidden="true"></i>
+                  </a>
+                  <div class="show-time_lists d-flex justify-content-between">
+                    <div>
+                      <i class="fa fa-clock-o mr-2" aria-hidden="true"></i>
+                      <span class="mr-2">VIEWING TIMES</span>
+                      <button class="btn">9:30</button>
+                      <button class="btn">11:45</button>
+                      <button class="btn">13:25</button>
+                      <button class="btn">15:45</button>
+                    </div>
+                    <p class="show-times__length">
+                      120 mins
+                      <span
+                        class="d-inline-block bg-dark text-white font-weight-blod ml-2"
+                        >20</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane container" id="tue">
+            <div class="row">
+              <div class="col-2">
+                <img src="./img/movie-7.jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="col-10">
+                <div class="show-time__detail">
+                  <span>Ation, Adventure, Fantasy</span>
+                  <h1 class="display-4">It's Over</h1>
+                  <p>
+                    Hard enough, I don't need to hear your voice on my messages
+                    Let's just call it quits it's probably better so if I'm not
+                    returning your calls it's cause
+                  </p>
+                  <a href="#" class="d-block mb-4">
+                    FULL
+                    <i class="fa fa-angle-right ml-1" aria-hidden="true"></i>
+                  </a>
+                  <div class="show-time_lists d-flex justify-content-between">
+                    <div>
+                      <i class="fa fa-clock-o mr-2" aria-hidden="true"></i>
+                      <span class="mr-2">VIEWING TIMES</span>
+                      <button class="btn">14:25</button>
+                      <button class="btn">16:45</button>
+                      <button class="btn">17:25</button>
+                      <button class="btn">19:45</button>
+                    </div>
+                    <p class="show-times__length">
+                      105 mins
+                      <span
+                        class="d-inline-block bg-dark text-white font-weight-blod ml-2"
+                        >15</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">
+                <img src="./img/movie-8.jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="col-10">
+                <div class="show-time__detail">
+                  <span>Ation, Adventure, Fantasy</span>
+                  <h1 class="display-4">Joker</h1>
+                  <p>
+                    The film, based on DC Comics characters, stars Joaquin
+                    Phoenix as the Joker and provides a possible origin story
+                    for the character.
+                  </p>
+                  <a href="#" class="d-block mb-4">
+                    FULL
+                    <i class="fa fa-angle-right ml-1" aria-hidden="true"></i>
+                  </a>
+                  <div class="show-time_lists d-flex justify-content-between">
+                    <div>
+                      <i class="fa fa-clock-o mr-2" aria-hidden="true"></i>
+                      <span class="mr-2">VIEWING TIMES</span>
+                      <button class="btn">9:30</button>
+                      <button class="btn">11:45</button>
+                      <button class="btn">13:25</button>
+                      <button class="btn">15:45</button>
+                    </div>
+                    <p class="show-times__length">
+                      120 mins
+                      <span
+                        class="d-inline-block bg-dark text-white font-weight-blod ml-2"
+                        >20</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane container" id="wed">
+            <div class="row">
+              <div class="col-2">
+                <img src="./img/movie-9.jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="col-10">
+                <div class="show-time__detail">
+                  <span>Ation, Adventure, Fantasy</span>
+                  <h1 class="display-4">It's Over</h1>
+                  <p>
+                    Hard enough, I don't need to hear your voice on my messages
+                    Let's just call it quits it's probably better so if I'm not
+                    returning your calls it's cause
+                  </p>
+                  <a href="#" class="d-block mb-4">
+                    FULL
+                    <i class="fa fa-angle-right ml-1" aria-hidden="true"></i>
+                  </a>
+                  <div class="show-time_lists d-flex justify-content-between">
+                    <div>
+                      <i class="fa fa-clock-o mr-2" aria-hidden="true"></i>
+                      <span class="mr-2">VIEWING TIMES</span>
+                      <button class="btn">14:25</button>
+                      <button class="btn">16:45</button>
+                      <button class="btn">17:25</button>
+                      <button class="btn">19:45</button>
+                    </div>
+                    <p class="show-times__length">
+                      105 mins
+                      <span
+                        class="d-inline-block bg-dark text-white font-weight-blod ml-2"
+                        >15</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">
+                <img src="./img/movie-10.jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="col-10">
+                <div class="show-time__detail">
+                  <span>Ation, Adventure, Fantasy</span>
+                  <h1 class="display-4">Joker</h1>
+                  <p>
+                    The film, based on DC Comics characters, stars Joaquin
+                    Phoenix as the Joker and provides a possible origin story
+                    for the character.
+                  </p>
+                  <a href="#" class="d-block mb-4">
+                    FULL
+                    <i class="fa fa-angle-right ml-1" aria-hidden="true"></i>
+                  </a>
+                  <div class="show-time_lists d-flex justify-content-between">
+                    <div>
+                      <i class="fa fa-clock-o mr-2" aria-hidden="true"></i>
+                      <span class="mr-2">VIEWING TIMES</span>
+                      <button class="btn">9:30</button>
+                      <button class="btn">11:45</button>
+                      <button class="btn">13:25</button>
+                      <button class="btn">15:45</button>
+                    </div>
+                    <p class="show-times__length">
+                      120 mins
+                      <span
+                        class="d-inline-block bg-dark text-white font-weight-blod ml-2"
+                        >20</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane container" id="thur">
+            <div class="row">
+              <div class="col-2">
+                <img src="./img/movie-11.jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="col-10">
+                <div class="show-time__detail">
+                  <span>Ation, Adventure, Fantasy</span>
+                  <h1 class="display-4">It's Over</h1>
+                  <p>
+                    Hard enough, I don't need to hear your voice on my messages
+                    Let's just call it quits it's probably better so if I'm not
+                    returning your calls it's cause
+                  </p>
+                  <a href="#" class="d-block mb-4">
+                    FULL
+                    <i class="fa fa-angle-right ml-1" aria-hidden="true"></i>
+                  </a>
+                  <div class="show-time_lists d-flex justify-content-between">
+                    <div>
+                      <i class="fa fa-clock-o mr-2" aria-hidden="true"></i>
+                      <span class="mr-2">VIEWING TIMES</span>
+                      <button class="btn">14:25</button>
+                      <button class="btn">16:45</button>
+                      <button class="btn">17:25</button>
+                      <button class="btn">19:45</button>
+                    </div>
+                    <p class="show-times__length">
+                      105 mins
+                      <span
+                        class="d-inline-block bg-dark text-white font-weight-blod ml-2"
+                        >15</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">
+                <img src="./img/movie-12.jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="col-10">
+                <div class="show-time__detail">
+                  <span>Ation, Adventure, Fantasy</span>
+                  <h1 class="display-4">Joker</h1>
+                  <p>
+                    The film, based on DC Comics characters, stars Joaquin
+                    Phoenix as the Joker and provides a possible origin story
+                    for the character.
+                  </p>
+                  <a href="#" class="d-block mb-4">
+                    FULL
+                    <i class="fa fa-angle-right ml-1" aria-hidden="true"></i>
+                  </a>
+                  <div class="show-time_lists d-flex justify-content-between">
+                    <div>
+                      <i class="fa fa-clock-o mr-2" aria-hidden="true"></i>
+                      <span class="mr-2">VIEWING TIMES</span>
+                      <button class="btn">9:30</button>
+                      <button class="btn">11:45</button>
+                      <button class="btn">13:25</button>
+                      <button class="btn">15:45</button>
+                    </div>
+                    <p class="show-times__length">
+                      120 mins
+                      <span
+                        class="d-inline-block bg-dark text-white font-weight-blod ml-2"
+                        >20</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane container" id="fri">
+            <div class="row">
+              <div class="col-2">
+                <img src="./img/movie-13.jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="col-10">
+                <div class="show-time__detail">
+                  <span>Ation, Adventure, Fantasy</span>
+                  <h1 class="display-4">It's Over</h1>
+                  <p>
+                    Hard enough, I don't need to hear your voice on my messages
+                    Let's just call it quits it's probably better so if I'm not
+                    returning your calls it's cause
+                  </p>
+                  <a href="#" class="d-block mb-4">
+                    FULL
+                    <i class="fa fa-angle-right ml-1" aria-hidden="true"></i>
+                  </a>
+                  <div class="show-time_lists d-flex justify-content-between">
+                    <div>
+                      <i class="fa fa-clock-o mr-2" aria-hidden="true"></i>
+                      <span class="mr-2">VIEWING TIMES</span>
+                      <button class="btn">14:25</button>
+                      <button class="btn">16:45</button>
+                      <button class="btn">17:25</button>
+                      <button class="btn">19:45</button>
+                    </div>
+                    <p class="show-times__length">
+                      105 mins
+                      <span
+                        class="d-inline-block bg-dark text-white font-weight-blod ml-2"
+                        >15</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">
+                <img src="./img/movie-14.jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="col-10">
+                <div class="show-time__detail">
+                  <span>Ation, Adventure, Fantasy</span>
+                  <h1 class="display-4">Joker</h1>
+                  <p>
+                    The film, based on DC Comics characters, stars Joaquin
+                    Phoenix as the Joker and provides a possible origin story
+                    for the character.
+                  </p>
+                  <a href="#" class="d-block mb-4">
+                    FULL
+                    <i class="fa fa-angle-right ml-1" aria-hidden="true"></i>
+                  </a>
+                  <div class="show-time_lists d-flex justify-content-between">
+                    <div>
+                      <i class="fa fa-clock-o mr-2" aria-hidden="true"></i>
+                      <span class="mr-2">VIEWING TIMES</span>
+                      <button class="btn">9:30</button>
+                      <button class="btn">11:45</button>
+                      <button class="btn">13:25</button>
+                      <button class="btn">15:45</button>
+                    </div>
+                    <p class="show-times__length">
+                      120 mins
+                      <span
+                        class="d-inline-block bg-dark text-white font-weight-blod ml-2"
+                        >20</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane container" id="sat">
+            <div class="row">
+              <div class="col-2">
+                <img src="./img/slide-3.png" class="img-fluid" alt="" />
+              </div>
+              <div class="col-10">
+                <div class="show-time__detail">
+                  <span>Ation, Adventure, Fantasy</span>
+                  <h1 class="display-4">It's Over</h1>
+                  <p>
+                    Hard enough, I don't need to hear your voice on my messages
+                    Let's just call it quits it's probably better so if I'm not
+                    returning your calls it's cause
+                  </p>
+                  <a href="#" class="d-block mb-4">
+                    FULL
+                    <i class="fa fa-angle-right ml-1" aria-hidden="true"></i>
+                  </a>
+                  <div class="show-time_lists d-flex justify-content-between">
+                    <div>
+                      <i class="fa fa-clock-o mr-2" aria-hidden="true"></i>
+                      <span class="mr-2">VIEWING TIMES</span>
+                      <button class="btn">14:25</button>
+                      <button class="btn">16:45</button>
+                      <button class="btn">17:25</button>
+                      <button class="btn">19:45</button>
+                    </div>
+                    <p class="show-times__length">
+                      105 mins
+                      <span
+                        class="d-inline-block bg-dark text-white font-weight-blod ml-2"
+                        >15</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">
+                <img src="./img/hero-1.jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="col-10">
+                <div class="show-time__detail">
+                  <span>Ation, Adventure, Fantasy</span>
+                  <h1 class="display-4">Joker</h1>
+                  <p>
+                    The film, based on DC Comics characters, stars Joaquin
+                    Phoenix as the Joker and provides a possible origin story
+                    for the character.
+                  </p>
+                  <a href="#" class="d-block mb-4">
+                    FULL
+                    <i class="fa fa-angle-right ml-1" aria-hidden="true"></i>
+                  </a>
+                  <div class="show-time_lists d-flex justify-content-between">
+                    <div>
+                      <i class="fa fa-clock-o mr-2" aria-hidden="true"></i>
+                      <span class="mr-2">VIEWING TIMES</span>
+                      <button class="btn">9:30</button>
+                      <button class="btn">11:45</button>
+                      <button class="btn">13:25</button>
+                      <button class="btn">15:45</button>
+                    </div>
+                    <p class="show-times__length">
+                      120 mins
+                      <span
+                        class="d-inline-block bg-dark text-white font-weight-blod ml-2"
+                        >20</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane container" id="sun">
+            <div class="row">
+              <div class="col-2">
+                <img src="./img/hero-2.jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="col-10">
+                <div class="show-time__detail">
+                  <span>Ation, Adventure, Fantasy</span>
+                  <h1 class="display-4">It's Over</h1>
+                  <p>
+                    Hard enough, I don't need to hear your voice on my messages
+                    Let's just call it quits it's probably better so if I'm not
+                    returning your calls it's cause
+                  </p>
+                  <a href="#" class="d-block mb-4">
+                    FULL
+                    <i class="fa fa-angle-right ml-1" aria-hidden="true"></i>
+                  </a>
+                  <div class="show-time_lists d-flex justify-content-between">
+                    <div>
+                      <i class="fa fa-clock-o mr-2" aria-hidden="true"></i>
+                      <span class="mr-2">VIEWING TIMES</span>
+                      <button class="btn">14:25</button>
+                      <button class="btn">16:45</button>
+                      <button class="btn">17:25</button>
+                      <button class="btn">19:45</button>
+                    </div>
+                    <p class="show-times__length">
+                      105 mins
+                      <span
+                        class="d-inline-block bg-dark text-white font-weight-blod ml-2"
+                        >15</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">
+                <img src="./img/hero-3.jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="col-10">
+                <div class="show-time__detail">
+                  <span>Ation, Adventure, Fantasy</span>
+                  <h1 class="display-4">Joker</h1>
+                  <p>
+                    The film, based on DC Comics characters, stars Joaquin
+                    Phoenix as the Joker and provides a possible origin story
+                    for the character.
+                  </p>
+                  <a href="#" class="d-block mb-4">
+                    FULL
+                    <i class="fa fa-angle-right ml-1" aria-hidden="true"></i>
+                  </a>
+                  <div class="show-time_lists d-flex justify-content-between">
+                    <div>
+                      <i class="fa fa-clock-o mr-2" aria-hidden="true"></i>
+                      <span class="mr-2">VIEWING TIMES</span>
+                      <button class="btn">9:30</button>
+                      <button class="btn">11:45</button>
+                      <button class="btn">13:25</button>
+                      <button class="btn">15:45</button>
+                    </div>
+                    <p class="show-times__length">
+                      120 mins
+                      <span
+                        class="d-inline-block bg-dark text-white font-weight-blod ml-2"
+                        >20</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- coming -->
+    <section class="coming">
+      <div class="coming__bg">
+        <div class="container">
+          <h1 class="line section-title display-4">Coming soon</h1>
+          <div class="row">
+            <div class="col-6 d-flex align-item-center">
+              <div class="coming__detail text-white">
+                <span>COMEDY, CRIME</span>
+                <h1>THE HANGOVER PART III</h1>
+                <p>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <span class="coming__cal">
+                    <i class="fa fa-calendar mr-2" aria-hidden="true"></i>
+                    september 2020
+                  </span>
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Error, quos.
+                </p>
+                <a href="#"
+                  >More Info <i class="fa fa-angle-right" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="coming__trailer">
+                <img src="./img/slide-3-video.png" class="img-fluid" alt="" />
+
+                <i class="fa fa-play" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="coming__list mt-5 text-center text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-2">
+              <img src="./img/movie-1.jpg" class="img-fluid" alt="">
+              <span >TOO FAST</span>
+              <p>15 April,2020</p>
+            </div>
+            <div class="col-2"><img src="./img/movie-1.jpg" class="img-fluid" alt="">
+              <span>TOO FAST</span>
+              <p>15 April,2020</p></div>
+            <div class="col-2"><img src="./img/movie-1.jpg" class="img-fluid" alt="">
+              <span>TOO FAST</span>
+              <p>15 April,2020</p></div>
+            <div class="col-2"><img src="./img/movie-1.jpg" class="img-fluid" alt="">
+              <span>TOO FAST</span>
+              <p>15 April,2020</p></div>
+            <div class="col-2"><img src="./img/movie-1.jpg" class="img-fluid" alt="">
+              <span>TOO FAST</span>
+              <p>15 April,2020</p></div>
+            <div class="col-2"><img src="./img/movie-1.jpg" class="img-fluid" alt="">
+              <span>TOO FAST</span>
+              <p>15 April,2020</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+    <section class="contact"></section>
+    <!-- footer -->
+    <footer class="footer"></footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
